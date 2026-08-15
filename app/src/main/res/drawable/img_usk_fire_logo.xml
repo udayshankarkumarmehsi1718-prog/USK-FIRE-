@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Dark gradient circular background -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M100,100 m-90,0 a90,90 0 1,1 180,0 a90,90 0 1,1 -180,0" />
+
+    <!-- Innermost fire glow -->
+    <path
+        android:fillColor="#FF3D00"
+        android:pathData="M100,100 m-75,0 a75,75 0 1,1 150,0 a75,75 0 1,1 -150,0" />
+
+    <path
+        android:fillColor="#FF9100"
+        android:pathData="M100,100 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M100,100 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0" />
+
+    <!-- Dark central shield background -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M100,45 L150,75 L140,140 L100,165 L60,140 L50,75 Z" />
+
+    <!-- Gold shield border -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="3"
+        android:pathData="M100,48 L146,76 L137,137 L100,161 L63,137 L54,76 Z" />
+
+    <!-- Stylized gold Trident/Crown shape inside the shield -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M100,75 L112,95 L130,85 L120,110 L100,140 L80,110 L70,85 L88,95 Z" />
+
+    <!-- Outer Gold Ring -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="5"
+        android:pathData="M100,100 m-85,0 a85,85 0 1,1 170,0 a85,85 0 1,1 -170,0" />
+
+    <path
+        android:strokeColor="#FF3D00"
+        android:strokeWidth="1.5"
+        android:pathData="M100,100 m-88,0 a88,88 0 1,1 176,0 a88,88 0 1,1 -176,0" />
+
+</vector>

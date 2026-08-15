@@ -1,0 +1,6 @@
+{
+  "name": "USK FIRE",
+  "description": "Fierce survival battle royale mobile game with intense shooter mechanics, custom maps, original weapons, bots, and safe zones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

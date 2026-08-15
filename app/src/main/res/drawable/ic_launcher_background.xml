@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Solid dark grey/maroon background with fiery radial/linear gradient -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108">
+                <item android:offset="0.0" android:color="#210501" />
+                <item android:offset="0.5" android:color="#3d0d03" />
+                <item android:offset="1.0" android:color="#d63611" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Tactical Grid lines in dark orange -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M18,0L18,108 M36,0L36,108 M54,0L54,108 M72,0L72,108 M90,0L90,108 M0,18L108,18 M0,36L108,36 M0,54L108,54 M0,72L108,72 M0,90L108,90"
+        android:strokeWidth="0.5"
+        android:strokeColor="#25FF5722" />
+
+    <!-- Abstract glowing concentric rings -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"
+        android:strokeWidth="1.0"
+        android:strokeColor="#18FF5722" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-25,0a25,25 0,1 1,50 0a25,25 0,1 1,-50 0"
+        android:strokeWidth="0.8"
+        android:strokeColor="#10FF5722" />
+</vector>
